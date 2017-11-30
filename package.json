@@ -1,12 +1,29 @@
 {
   "name": "eslint-cdrani",
   "version": "0.1.0",
-  "description": "",
+  "description": "eslint linter saddled with prettier formatter",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "prettier-eslint .",
+    "eslint-check":
+      "eslint --print-config .eslintrc.json | eslint-config-prettier-check"
   },
-  "keywords": [],
-  "author": "charles drani <charlesdrani@gmail.com> (https://github.com/cdrainxv)",
+  "keywords": ["eslint", "prettier", "config", "es6+"],
+  "devDependencies": {
+    "eslint": "4.12.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.3.1",
+    "prettier": "1.8.2",
+    "prettier-eslint": "8.2.2",
+    "prettier-eslint-cli": "4.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cdrainxv/eslint-config-cdrani.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cdrainxv/eslint-cdrani/issues"
+  },
+  "author": "cdrani (https://github.com/cdrainxv)",
   "license": "MIT"
 }
