@@ -1,5 +1,5 @@
 {
-  "name": "eslint-cdrani",
+  "name": "eslint-config-cdrainxv",
   "version": "0.1.0",
   "description": "eslint linter saddled with prettier formatter",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "prettier-eslint": "8.2.2",
     "prettier-eslint-cli": "4.4.0"
   },
-  "peerDepencies": {
+  "peerDependencies": {
     "eslint": ">= 4",
     "eslint-config-prettier": ">= 2",
     "eslint-plugin-prettier": ">= 2",
@@ -27,11 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:cdrainxv/eslint-config-cdrani.git"
+    "url": "git@github.com:cdrainxv/eslint-config-cdrainxv.git"
   },
   "bugs": {
-    "url": "https://github.com/cdrainxv/eslint-cdrani/issues"
+    "url": "https://github.com/cdrainxv/eslint-config-cdrainxv/issues"
   },
-  "author": "cdrani (https://github.com/cdrainxv)",
+  "author": "https://github.com/cdrainxv",
+  "homepage": "https://github.com/cdrainxv/eslint-config-cdrainxv#readme",
   "license": "MIT"
 }
