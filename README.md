@@ -48,6 +48,11 @@ it is incrementally updated it stricter rules). This config is coupled with
 
 6. Configure further with your own rules and/or plugins.
 
+7. Check that your rules don't conflict with **Prettier**'s own rules:
+  `npm run eslint-check`
+
+8. Run linter: `npm run lint`
+
 ---
 
 ## References:
