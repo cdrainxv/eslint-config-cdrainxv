@@ -57,8 +57,9 @@ it is incrementally updated it stricter rules). This config is coupled with
 
 ## References:
 
-[prettier/prettier](https://github.com/prettier/prettier)
-[prettier/eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
-[prettier/prettier-eslint](https://github.com/prettier/prettier-eslint)
+[prettier/prettier](https://github.com/prettier/prettier) | 
+[prettier/eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) | 
+[prettier/prettier-eslint](https://github.com/prettier/prettier-eslint) | 
 [prettier/prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli)
+| 
 [eslint](https://eslint.org/docs/rules/)
