@@ -17,7 +17,7 @@ it is incrementally updated it stricter rules). This config is coupled with
 
 3. Create `.eslintrc*` configuration file
 
-4. include `cdrainxv` as an extention:
+4. Include `cdrainxv` as an extension:
 
    **.eslintrc.js**
 
@@ -39,12 +39,12 @@ it is incrementally updated it stricter rules). This config is coupled with
 
 5. Add lint scripts to package.json:
 
-  ```json
-    "scripts": {
-      "lint": "prettier-eslint .",
-      "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
-    }
-  ```
+    ```json
+      "scripts": {
+        "lint": "prettier-eslint .",
+        "eslint-check": "eslint --print-config .eslintrc.js | eslint-config-prettier-check"
+      }
+    ```
 
 6. Configure further with your own rules and/or plugins.
 
@@ -57,9 +57,10 @@ it is incrementally updated it stricter rules). This config is coupled with
 
 ## References:
 
-[prettier/prettier](https://github.com/prettier/prettier) | 
-[prettier/eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) | 
-[prettier/prettier-eslint](https://github.com/prettier/prettier-eslint) | 
-[prettier/prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli)
+[prettier/prettier](https://github.com/prettier/prettier#readme) | 
+[prettier/eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier#readme) | 
+[prettier/prettier-eslint](https://github.com/prettier/prettier-eslint#readme) | 
+[prettier/prettier-eslint-cli](https://github.com/prettier/prettier-eslint-cli#readme)
 | 
+[prettier/eslint-config-prettier](https://github.com/prettier/eslint-config-prettier#readme) | 
 [eslint](https://eslint.org/docs/rules/)
